@@ -11,3 +11,13 @@ Classificação - RCE via DLL Score 6+ pior cenário 9.8 ...
 O serviço de spooler de impressão pode ser abusado por um controle remoto autenticado
   invasor carregue uma DLL por meio de uma solicitação DCERPC elaborada, resultando
   em execução remota de código como NT AUTHORITY \ SYSTEM.
+  
+  https://nvd.nist.gov/vuln/detail/CVE-2021-1675
+  https://nvd.nist.gov/vuln/detail/CVE-2021-34527
+  https://github.com/cube0x0/CVE-2021-1675
+  https://github.com/afwu/PrintNightmare
+  https://github.com/calebstewart/CVE-2021-1675/blob/main/CVE-2021-1675.ps1
+
+msfconsole modulo.
+
+use auxiliary/admin/dcerpc/cve_2021_1675_printnightmare
