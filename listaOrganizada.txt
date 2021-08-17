@@ -1,4 +1,4 @@
-CVE-2021-1675 PrintNightmare
+CVE-2021-1675 PrintNightmare RCE
 
 PoC - https://www.youtube.com/watch?v=ZVyka0eAM1U
 Explicação - https://www.youtube.com/watch?v=5MeQ7YUSTY0
