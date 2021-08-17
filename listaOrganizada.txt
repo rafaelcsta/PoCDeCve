@@ -2,6 +2,7 @@ CVE-2021-1675 PrintNightmare
 
 PoC - https://www.youtube.com/watch?v=ZVyka0eAM1U
 Explicação - https://www.youtube.com/watch?v=5MeQ7YUSTY0
+Explicação - https://www.blumira.com/cve-2021-1675/
 Exploit - https://github.com/cube0x0/CVE-2021-1675
 Targets - Todos os Windows
 Issue - SMB null session + serviço spoler que gerencia impressão possui critica vulnerabilidade
