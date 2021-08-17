@@ -8,3 +8,6 @@ Targets - Todos os Windows
 Issue - SMB null session + serviço spoler que gerencia impressão possui critica vulnerabilidade
 Classificação - RCE via DLL Score 6+ pior cenário 9.8 ...
 
+O serviço de spooler de impressão pode ser abusado por um controle remoto autenticado
+  invasor carregue uma DLL por meio de uma solicitação DCERPC elaborada, resultando
+  em execução remota de código como NT AUTHORITY \ SYSTEM.
